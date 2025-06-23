@@ -1,0 +1,564 @@
+body {
+  background: #fff;
+  color: #111;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: white;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-light {
+
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.globe {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.hero {
+  height: 100vh;
+  background: url('/asset/Rectangle\ 1.png') no-repeat center center/cover;
+  position: relative;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+  max-width: 700px;
+  width: 90%;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.offer-card h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+  margin-bottom: 15px;
+ border-radius: 60px ;
+}
+
+select, input {
+  padding: 10px;
+  border-radius: 1px;
+  border: 1px solid #ccc;
+  min-width: 120px;
+  flex: 1;
+  max-width: 500px;
+}
+
+input {
+  flex: 2;
+}
+
+.btn-offer {
+  background: #00e2d6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  flex: 1;
+}
+
+.why-btn {
+  margin-top: 20px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.yell-bg{
+  background: yellow;
+  margin-bottom:px;
+}
+.yellw-banner-text{
+
+  text-align: center;
+  padding: 30px 20px;
+   font-weight: 800;
+}
+
+/* sec# */
+.features {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.feature {
+  width: 30%;
+  min-width: 200px;
+  padding: 10px;
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #555;
+  font-size: 14px;
+}
+
+.feature a {
+  font-size: 12px;
+  color: black;
+  text-decoration: underline;
+}
+
+.see-all {
+  margin-top: 20px;
+  border: 1px solid black;
+  background: white;
+  color: black;
+ border-radius: 300px;
+ font-weight: 500px;
+}
+.hr-left{
+   transform: rotate(90deg);
+          margin-top: 43px;
+      height: 120px; 
+}
+
+/* buy sell */
+.trade-panel {
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.buy-sell {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  border: 2px solid #008cff;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  margin: 10px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+.img-buy-sell{
+  width: 50 px;
+  
+}
+.option {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 10px auto;
+  }
+
+  .img-buy-sell {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+
+  .option h2 {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+.option {
+  
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+button {
+  background: black;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cta {
+  text-align: center;
+  background: #e3ccfc;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+.cta h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.get-started {
+  background: black;
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+
+.features {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.feature {
+  width: 30%;
+  min-width: 200px;
+  padding: 10px;
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #555;
+  font-size: 14px;
+}
+
+.feature a {
+  font-size: 12px;
+  color: black;
+  text-decoration: underline;
+}
+/* Footer */
+ footer {
+            background-color: #000; /* Black background as per the image */
+            color: #fff; /* White text color */
+            padding: 40px 0 20px; /* Top/bottom padding for the footer */
+            font-size: 14px;}
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px; /* Adjust as needed */
+            margin: 0 auto; /* Center the content */
+            padding: 0 20px; /* Horizontal padding for content */
+            flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+        }
+
+        .footer-column {
+            flex: 1; /* Distribute space equally */
+            min-width: 180px; /* Minimum width for columns before wrapping */
+            margin-bottom: 30px; /* Space between columns on smaller screens */
+        }
+
+        .footer-column:first-child {
+            flex: 1.5; /* Give more space to the logo column if needed, or keep 1 */
+            min-width: 200px;
+        }
+
+        .footer-logo {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #fff;
+            text-decoration: none;
+            display: block; /* Make it block to take full width and apply margin-bottom */
+        }
+
+        .footer-column h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer-column ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-column ul li a:hover {
+            color: #ccc; /* Slightly lighter on hover */
+        }
+
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 40px auto 0; 
+            padding: 20px;
+            border-top: 1px solid #333; 
+            text-align: left;
+            font-size: 12px;
+            line-height: 1.6;
+            color: #aaa; 
+        }
+
+       
+     
+
+            .footer-column {
+                min-width: unset; 
+                width: 100%; 
+                margin-bottom: 20px;
+            }
+
+            .footer-column:first-child {
+                margin-bottom: 30px; 
+            }
+
+            .footer-column h3 {
+                margin-top: 20px;
+            }
+.img-yellow-banner{
+  width: 250px;
+}
+            .footer-bottom {
+                text-align: center;
+                padding: 15px;
+                margin-top: 20px;
+            }
+          }
+/*
+/* Responsive */
+
+   @media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .hero {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .offer-card {
+    width: 100%;
+  }
+
+  .feature-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+
+  .buy-sell {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .cta h1 {
+    font-size: 2rem;
+  }
+
+  .cta button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+/* Mobile-first: max-width 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav a {
+    margin: 8px 0;
+  }
+
+  .actions {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .hero {
+    height: auto;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .overlay {
+    padding: 20px;
+  }
+
+  .offer-card {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .buy-sell {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .cta h1 {
+    font-size: 2rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+
+  .feature-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img-yellow-banner {
+    width: 100%;
+    max-width: 250px;
+  }
+}
