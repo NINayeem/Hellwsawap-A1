@@ -145,6 +145,7 @@ input {
    font-weight: 800;
 }
 
+
 /* sec# */
 .features {
   padding: 40px 20px;
@@ -405,7 +406,7 @@ button {
                 margin-top: 20px;
             }
 .img-yellow-banner{
-  width: 250px;
+  width: ;
 }
             .footer-bottom {
                 text-align: center;
@@ -471,6 +472,8 @@ button {
     width: 100%;
     max-width: 300px;
   }
+  
+  
 }
 /* Mobile-first: max-width 768px */
 @media (max-width: 768px) {
@@ -556,9 +559,9 @@ button {
     width: 100%;
     margin-bottom: 20px;
   }
-
-  .img-yellow-banner {
+ .img-yellow-banner {
     width: 100%;
     max-width: 250px;
   }
+ 
 }
